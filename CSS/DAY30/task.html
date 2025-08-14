@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <style>
+
+        *{
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+        }
+        .main-div1{
+            height: 150px;
+            width: 20vh;
+            border: 3px solid rgb(211, 211, 211);
+            position: relative;
+            border-radius: 10px; 
+            left: 20px;
+            overflow: hidden;
+        }
+
+
+        .main-div{
+            height: 320px;
+            width: 20vh;
+            border: 3px solid lightgray;
+            position: relative;
+            border-radius: 10px; 
+            left: 20px;
+            overflow: hidden;
+            
+        }
+        img{
+            height: 130px;
+            width: 20vh;
+            justify-content: center;
+        }
+        img:hover{
+            transform: scale(1.1);
+            
+        }
+        button{
+            position:absolute ;
+            bottom: 186px;
+            right: 15px;
+            border-radius: 3px;
+            border: none;  
+            padding: 5px 10px;
+            background-color:white;
+            color: pink;
+            box-shadow: 2px 2px pink
+
+        }
+        .flex-d{
+            display: flex;
+            /* border: 10px solid red; */
+            /* flex-wrap: wrap; */
+            /* flex-direction: row-reverse/row/column/column-reverse; */
+            flex-wrap: wrap;
+            gap: 12px;
+            bottom: 40px;
+            top: 100px;
+        }
+        /* .flex-d{
+             flex-wrap: wrap;
+        } */
+
+        /* after add */
+            .price {
+      font-size: 20px;
+      font-weight: bold;
+      margin-top: 10px;
+    }
+
+    .original-price {
+      text-decoration: line-through;
+      color: #888;
+      font-size: 14px;
+      margin-left: 5px;
+    }
+
+    .save {
+      color: green;
+      font-weight: bold;
+      font-size: 14px;
+    }
+
+    .description {
+      font-size: 14px;
+      color: #333;
+      margin: 8px 0;
+    }
+
+    .rating {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 14px;
+      color: #444;
+      margin-top: 8px;
+    }
+
+    .rating span {
+      background-color: #4CAF50;
+      color: white;
+      padding: 2px 6px;
+      border-radius: 8px;
+      margin-right: 6px;
+      font-size: 13px;
+    }
+    /* footer css */
+
+    .footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 40px 60px;
+  background-color: #fff;
+  border-top: 1px solid #eee;
+  flex-wrap: wrap;
+}
+
+.footer-left {
+  flex: 1;
+  min-width: 220px;
+}
+
+.logo {
+  color: #ff3366;
+  font-size: 32px;
+  margin-bottom: 10px;
+  bottom: 20px;
+
+}
+
+.social-icons {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 10px;
+}
+
+.social-icons img {
+  width: 24px;
+  height: 24px;
+}
+
+.footer-links {
+  flex: 2;
+  display: flex;
+  justify-content: space-around;
+  min-width: 300px;
+}
+
+.link-column {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.link-column a {
+  text-decoration: none;
+  color: #111;
+  font-weight: 500;
+}
+
+.footer-right {
+  flex: 1;
+  min-width: 220px;
+}
+
+.footer-right h3 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.store-btn {
+  width: 160px;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+  .footer {
+    flex-direction: column;
+    gap: 30px;
+    padding: 30px;
+  }
+
+  .footer-links {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+    </style>
+</head>
+<body>
+    <div id="logo">
+        <div><img src="https://cdn.zeptonow.com/web-static-assets-prod/artifacts/13.6.0/images/header/primary-logo.svg" alt=""></div>
+        <div><span></span></div>
+        <div><span></span></div>
+    </div>
+    
+
+
+
+    <div class="flex-d" style="border:2px solid #4CAF50;">
+        <div class="main-div1">
+            <div>            <img src="https://cdn.zeptonow.com/production/cms/category/38047553-95f3-47c6-a1ff-4794e1227d3a.png" 
+            alt="">     
+                
+            
+            </div>
+
+        </div>
+        <div class="main-div1">
+            <div><img class="imgscale" src="https://cdn.zeptonow.com/production/tr:w-1280,ar-1500-1500,pr-true,f-auto,q-80/cms/product_variant/9b8420a7-c81a-4d85-9233-a5f69d6d0613.jpg" alt="">
+                
+            </div>
+        </div>
+        <div class="main-div1">
+            <div><img class="imgscale" src="https://cdn.zeptonow.com/production/tr:w-1280,ar-1500-1500,pr-true,f-auto,q-80/cms/product_variant/9b8420a7-c81a-4d85-9233-a5f69d6d0613.jpg" alt="">
+              
+            </div>
+        </div>
+        <div class="main-div1">
+            <div><img class="imgscale" src="https://cdn.zeptonow.com/production/tr:w-1280,ar-1500-1500,pr-true,f-auto,q-80/cms/product_variant/9b8420a7-c81a-4d85-9233-a5f69d6d0613.jpg" alt="">
+               
+            </div>
+        </div>
+        <div class="main-div1">
+            <div><img class="imgscale" src="https://cdn.zeptonow.com/production/tr:w-1280,ar-1500-1500,pr-true,f-auto,q-80/cms/product_variant/9b8420a7-c81a-4d85-9233-a5f69d6d0613.jpg" alt="">
+                
+            </div>
+        </div>
+        <div class="main-div1">
+            <div><img class="imgscale" src="https://cdn.zeptonow.com/production/tr:w-1280,ar-1500-1500,pr-true,f-auto,q-80/cms/product_variant/9b8420a7-c81a-4d85-9233-a5f69d6d0613.jpg" alt="">
+              
+            </div>
+        </div>
+        <div class="main-div1">
+            <div><img class="imgscale" src="https://cdn.zeptonow.com/production/tr:w-1280,ar-1500-1500,pr-true,f-auto,q-80/cms/product_variant/9b8420a7-c81a-4d85-9233-a5f69d6d0613.jpg" alt="">
+              
+            </div>
+        </div>
+
+
+        <div class="main-div1">
+            <div><img class="imgscale" src="https://cdn.zeptonow.com/production/tr:w-1280,ar-1500-1500,pr-true,f-auto,q-80/cms/product_variant/9b8420a7-c81a-4d85-9233-a5f69d6d0613.jpg" alt="">
+                
+            </div>
+        </div>
+        <div class="main-div1">
+            <div><img class="imgscale" src="https://cdn.zeptonow.com/production/tr:w-1280,ar-1500-1500,pr-true,f-auto,q-80/cms/product_variant/9b8420a7-c81a-4d85-9233-a5f69d6d0613.jpg" alt="">
+              
+            </div>
+        </div>
+    </div>
+
+
+<!-- second -->
+
+    <h4>Elevate Yourself</h4>       
+    <div class="flex-d" style="border:2px solid #f89000;">
+        
+        <div class="main-div">
+            <div><img class="imgscale" src="https://cdn.zeptonow.com/production/tr:w-1280,ar-1500-1500,pr-true,f-auto,q-80/cms/product_variant/9b8420a7-c81a-4d85-9233-a5f69d6d0613.jpg" alt="">
+                <button>ADD</button>
+            <div class="price">₹10999 <span class="original-price">₹35000</span></div>
+            <div class="save">SAVE ₹24.0K</div>
+            <div class="emi">₹1054/month EMI</div>
+            <div class="description">1 pc<br>Lifelong Pain Relief Foot, Calf and Leg...</div>
+            <div class="rating"><span>4.2</span>(766)</div>
+            <div class="no-cost-emi">No Cost EMI</div>
+            </div>
+
+        </div>
+        <div class="main-div">
+            <div><img class="imgscale" src="https://cdn.zeptonow.com/production/tr:w-1280,ar-1500-1500,pr-true,f-auto,q-80/cms/product_variant/9b8420a7-c81a-4d85-9233-a5f69d6d0613.jpg" alt="">
+                <button>ADD1</button>
+            </div>
+        </div>
+        <div class="main-div">
+            <div><img class="imgscale" src="https://cdn.zeptonow.com/production/tr:w-1280,ar-1500-1500,pr-true,f-auto,q-80/cms/product_variant/9b8420a7-c81a-4d85-9233-a5f69d6d0613.jpg" alt="">
+                <button>ADD2</button>
+            </div>
+        </div>
+        <div class="main-div">
+            <div><img class="imgscale" src="https://cdn.zeptonow.com/production/tr:w-1280,ar-1500-1500,pr-true,f-auto,q-80/cms/product_variant/9b8420a7-c81a-4d85-9233-a5f69d6d0613.jpg" alt="">
+                <button>ADD3</button>
+            </div>
+        </div>
+        <div class="main-div">
+            <div><img class="imgscale" src="https://cdn.zeptonow.com/production/tr:w-1280,ar-1500-1500,pr-true,f-auto,q-80/cms/product_variant/9b8420a7-c81a-4d85-9233-a5f69d6d0613.jpg" alt="">
+                <button>ADD3</button>
+            </div>
+        </div>
+        <div class="main-div">
+            <div><img class="imgscale" src="https://cdn.zeptonow.com/production/tr:w-1280,ar-1500-1500,pr-true,f-auto,q-80/cms/product_variant/9b8420a7-c81a-4d85-9233-a5f69d6d0613.jpg" alt="">
+                <button>ADD3</button>
+            </div>
+        </div>
+        <div class="main-div">
+            <div><img class="imgscale" src="https://cdn.zeptonow.com/production/tr:w-1280,ar-1500-1500,pr-true,f-auto,q-80/cms/product_variant/9b8420a7-c81a-4d85-9233-a5f69d6d0613.jpg" alt="">
+                <button>ADD3</button>
+            </div>
+        </div>
+
+
+        <div class="main-div">
+            <div><img class="imgscale" src="https://cdn.zeptonow.com/production/tr:w-1280,ar-1500-1500,pr-true,f-auto,q-80/cms/product_variant/9b8420a7-c81a-4d85-9233-a5f69d6d0613.jpg" alt="">
+                <button>ADD2</button>
+            </div>
+        </div>
+        <div class="main-div">
+            <div><img class="imgscale" src="https://cdn.zeptonow.com/production/tr:w-1280,ar-1500-1500,pr-true,f-auto,q-80/cms/product_variant/9b8420a7-c81a-4d85-9233-a5f69d6d0613.jpg" alt="">
+                <button>ADD3</button>
+            </div>
+        </div>
+    </div>
+
+    <h4>Get Your Home Needs</h4>
+    <div class="flex-d" style="border:2px solid #3b0060;">
+        
+        <div class="main-div">
+            <div><img class="imgscale" src="https://cdn.zeptonow.com/production/tr:w-1280,ar-4167-4167,pr-true,f-auto,q-80/cms/product_variant/55682f9c-1e5d-499c-abe4-9e94da46900a.jpg" alt="">
+                <button>ADD</button>
+            <div class="price">₹10999 <span class="original-price">₹35000</span></div>
+            <div class="save">SAVE ₹24.0K</div>
+            <div class="emi">₹1054/month EMI</div>
+            <div class="description">1 pc<br>Lifelong Pain Relief Foot, Calf and Leg...</div>
+            <div class="rating"><span>4.2</span>(766)</div>
+            <div class="no-cost-emi">No Cost EMI</div>
+            </div>
+
+        </div>
+        <div class="main-div">
+            <div><img class="imgscale" src="https://cdn.zeptonow.com/production/tr:w-1280,ar-1500-1500,pr-true,f-auto,q-80/cms/product_variant/9b8420a7-c81a-4d85-9233-a5f69d6d0613.jpg" alt="">
+                <button>ADD1</button>
+            </div>
+        </div>
+        <div class="main-div">
+            <div><img class="imgscale" src="https://cdn.zeptonow.com/production/tr:w-1280,ar-1500-1500,pr-true,f-auto,q-80/cms/product_variant/9b8420a7-c81a-4d85-9233-a5f69d6d0613.jpg" alt="">
+                <button>ADD2</button>
+            </div>
+        </div>
+        <div class="main-div">
+            <div><img class="imgscale" src="https://cdn.zeptonow.com/production/tr:w-1280,ar-1500-1500,pr-true,f-auto,q-80/cms/product_variant/9b8420a7-c81a-4d85-9233-a5f69d6d0613.jpg" alt="">
+                <button>ADD3</button>
+            </div>
+        </div>
+        <div class="main-div">
+            <div><img class="imgscale" src="https://cdn.zeptonow.com/production/tr:w-1280,ar-1500-1500,pr-true,f-auto,q-80/cms/product_variant/9b8420a7-c81a-4d85-9233-a5f69d6d0613.jpg" alt="">
+                <button>ADD3</button>
+            </div>
+        </div>
+        <div class="main-div">
+            <div><img class="imgscale" src="https://cdn.zeptonow.com/production/tr:w-1280,ar-1500-1500,pr-true,f-auto,q-80/cms/product_variant/9b8420a7-c81a-4d85-9233-a5f69d6d0613.jpg" alt="">
+                <button>ADD3</button>
+            </div>
+        </div>
+        <div class="main-div">
+            <div><img class="imgscale" src="https://cdn.zeptonow.com/production/tr:w-1280,ar-1500-1500,pr-true,f-auto,q-80/cms/product_variant/9b8420a7-c81a-4d85-9233-a5f69d6d0613.jpg" alt="">
+                <button>ADD3</button>
+            </div>
+        </div>
+
+
+        <div class="main-div">
+            <div><img class="imgscale" src="https://cdn.zeptonow.com/production/tr:w-1280,ar-1500-1500,pr-true,f-auto,q-80/cms/product_variant/9b8420a7-c81a-4d85-9233-a5f69d6d0613.jpg" alt="">
+                <button>ADD2</button>
+            </div>
+        </div>
+        <div class="main-div">
+            <div><img class="imgscale" src="https://cdn.zeptonow.com/production/tr:w-1280,ar-1500-1500,pr-true,f-auto,q-80/cms/product_variant/9b8420a7-c81a-4d85-9233-a5f69d6d0613.jpg" alt="">
+                <button>ADD3</button>
+            </div>
+        </div>
+    </div>
+
+<!-- footer -->
+  <footer class="footer">
+    <div class="footer-left">
+      <h1 class="logo">zepto</h1>
+      <div class="social-icons">
+
+        <i class="bi bi-instagram"></i>
+        <i class="bi bi-facebook"></i>
+        <i class="bi bi-twitter-x"></i>
+        <i class="bi bi-linkedin"></i>
+      </div>
+      <p class="copyright">© Zepto Marketplace Private Limited</p>
+    </div>
+
+    <div class="footer-links">
+      <div class="link-column">
+        <a href="#">Home</a>
+        <a href="#">Delivery Areas</a>
+        <a href="#">Careers</a>
+        <a href="#">Customer Support</a>
+        <a href="#">Press</a>
+      </div>
+      <div class="link-column">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Use</a>
+        <a href="#">Responsible Disclosure Policy</a>
+        <a href="#">Sell on Zepto</a>
+      </div>
+    </div>
+
+    <div class="footer-right">
+      <h3>Download App</h3>
+      <img src="playstore.png" alt="Get it on Play Store" class="store-btn">
+      <img src="appstore.png" alt="Get it on App Store" class="store-btn">
+    </div>
+  </footer>
+
+
+    
+</body>
+</html>

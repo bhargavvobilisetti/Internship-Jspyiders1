@@ -1,0 +1,35 @@
+body{
+    margin: 0px;
+}
+div{
+    height:100vh;
+    /* background-color: blue; */
+    /* background-image: url("https://www.livemint.com/lm-img/img/2024/09/05/600x338/Delhi-Weather-Rain--12_1725442976768_1725496850640.jpg"); */
+    /* background-image: ("./DAY3/4G1A9923.JPG"); */
+    /* background-image: url("https://cdn.pixabay.com/photo/2013/09/22/09/15/tablet-184888_1280.jpg");
+    norepeat center/cover fixed */
+    /* background-image: url("https://cdn.pixabay.com/photo/2019/09/03/04/35/macaw-4448598_1280.jpg"); */
+    /* background-repeat: no-repeat;
+    background-position: center center; */
+    /* background-color: #0a0909; */
+    background-attachment: fixed;
+    font-size: 150px;
+    /* font-color:#hdskdlc; */
+    /* background-size: cover; */
+}
+#container-1{
+    background: url("https://cdn.pixabay.com/photo/2019/09/03/04/35/macaw-4448598_1280.jpg")
+    no-repeat bottom/cover
+    /* we can give the back-ground as the without using background color, image-url, size for that we  */
+
+}
+#container-2{
+    background-image: linear-gradient( orange,white,green, #d2ceec);
+    /* background-image: radial-gradient(orange,white,green); */
+}
+#container-3{
+    /* background-image: radial-gradient( orange,white,green); */
+    background-image: linear-gradient(to top, #caf6d1, #abdfcd, #97c6c4, #8cadb4, #84949d, #84919d, #858e9c, #878a9a, #9c98b2, #b5a5c8, #d4b1da, #f6bce8);
+}
+
+

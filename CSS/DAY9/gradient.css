@@ -1,0 +1,56 @@
+/* div{ */
+
+    /* background-image: linear-gradient(
+                (rgba(235, 17, 17, 0.495)
+                (rgba(68, 68, 114, 0.329)
+    ) */
+
+    /* background: url("https://i.pinimg.com/474x/af/f0/6f/aff06fb3660a32e8f90bde5c46d3c80f.jpg")
+    fixed center/cover; */
+    /* height:100vh;
+    background-image: linear-gradient(
+        rgba(201, 16, 16, 0.509)
+        rgba(252, 238, 238, 0.237)),url();
+    background-repeat: no-repeat
+    ;
+} */
+section{
+    height: 100vh;
+    background-image: linear-gradient(
+        rgba(255, 0, 0, 0.144)
+        /* rgba(255, 255, 255, 0.091)
+         */
+    ),
+    url(https://assets.nflxext.com/ffe/siteui/vlv3/05e91faa-6f6d-4325-934e-5418dcc2567b/web/IN-en-20250630-TRIFECTA-perspective_159086b1-425f-435b-bcd5-1ed8039cdef9_large.jpg);
+    background-repeat: no-repeat;
+}
+p:hover{
+    background-image: linear-gradient(red,white);
+}
+p::first-letter{
+    color: navy;
+}
+p::first-line{
+    color: violet;
+    /* font-size: 100vh; */
+}
+p::selection{
+    color: lightgreen;
+    background-color: brown;
+}
+p::before{
+    content: '👐';
+}
+p::after{
+    content: '😶😶😶';
+}
+img:hover{
+    content: url("	https://static-production.npmjs.com/6bf09f9948c3044dbb2c7ed8b85098dc.png");
+}
+input::placeholder{
+    color:navy;
+    font-size: 50px;
+}
+ol li::marker{
+    color: navy;
+}

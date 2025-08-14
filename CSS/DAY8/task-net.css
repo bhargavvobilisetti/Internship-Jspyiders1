@@ -1,0 +1,9 @@
+#image{
+    height: 100vh ;
+    background: url("https://i.pinimg.com/474x/af/f0/6f/aff06fb3660a32e8f90bde5c46d3c80f.jpg")
+    fixed center/cover;
+    
+    /* background: url("https://cdn.pixabay.com/photo/2019/09/03/04/35/macaw-4448598_1280.jpg")
+    no-repeat bottom/cover; */
+    /* background-image: url("https://images.ctfassets.net/y2ske730sjqp/5QQ9SVIdc1tmkqrtFnG9U1/de758bba0f65dcc1c6bc1f31f161003d/BrandAssets_Logos_02-NSymbol.jpg?w=940"); */
+}

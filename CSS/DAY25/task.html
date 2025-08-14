@@ -1,0 +1,359 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+        margin: 0;
+        padding: 0;
+            box-sizing: border-box;
+        }
+        #container{
+            height: 100vh;
+        }
+        .card1,.card2,.card3,.card4,.card5,.card6,.card7,.card8,.card9,.card10{
+            width: 45%;
+            height: 300px;
+            left: 20px;
+            border: solid;
+            display: inline-block;
+            position: relative;
+        }
+        img{
+            width: 100%;
+            height: 100%;
+            position: absolute;
+        }
+        p{
+            position: absolute;
+            top: 10px;
+        }
+        button{
+            position: absolute;
+            bottom: 10px;
+            right: 10px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+   <section id="container"> <section class="card1"><img src="../pictures/swan-1.jpg" alt="swan">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, ut?</p>
+<button>Button</button></section>
+<section class="card2"><img src="../pictures/swan-2.jpg" alt="swan">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, ut?</p>
+<button>Button</button></section>
+<section class="card3"><img src="../pictures/swan-3.jpg" alt="swan">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, ut?</p>
+<button>Button</button></section>
+<section class="card4"><img src="../pictures/swan-4.jpg" alt="swan">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, ut?</p>
+<button>Button</button></section>
+<section class="card5"><img src="../pictures/swan-5.jpg" alt="swan">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, ut?</p>
+<button>Button</button></section>
+<section class="card6"><img src="../pictures/swan-6.jpg" alt="swan">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, ut?</p>
+<button>Button</button></section>
+<section class="card7"><img src="../pictures/swan-7.jpg" alt="swan">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, ut?</p>
+<button>Button</button></section>
+<section class="card8"><img src="../pictures/swan-8.jpg" alt="swan">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, ut?</p>
+<button>Button</button></section>
+<section class="card9"><img src="../pictures/swan-9.jpg" alt="swan">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, ut?</p>
+<button>Button</button></section>
+<section class="card10"><img src="../pictures/swan-10.jpg" alt="swan">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, ut?</p>
+<button>Button</button></section></section>
+</body>
+</html> -->
+
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Relative vs Absolute - 15 Examples</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f2f2f2;
+      padding: 20px;
+    }
+
+    .example {
+      margin-bottom: 40px;
+      border: 2px solid #ccc;
+      padding: 20px;
+      background: white;
+      position: relative;
+    }
+
+    .absolute {
+      position: absolute;
+      width: 80px;
+      height: 80px;
+      background: tomato;
+      color: white;
+      text-align: center;
+      line-height: 80px;
+      font-weight: bold;
+    }
+
+    /* Example-specific positions */
+    .ex1 .absolute { top: 0; left: 0; }
+    .ex2 .absolute { top: 0; right: 0; }
+    .ex3 .absolute { bottom: 0; left: 0; }
+    .ex4 .absolute { bottom: 0; right: 0; }
+    .ex5 .absolute { top: 50%; left: 50%; transform: translate(-50%, -50%); }
+    .ex6 .absolute { top: 20px; left: 100px; }
+    .ex7 .absolute { top: 0; left: 0; background: green; width: 100%; height: 10px; }
+    .ex8 .absolute { bottom: 0; left: 0; background: purple; width: 100%; height: 10px; }
+    .ex9 .absolute { top: 0; right: 0; width: auto; padding: 10px; background: black; }
+    .ex10 .absolute { top: -20px; left: -20px; }
+    .ex11 .absolute { right: -40px; bottom: 20px; background: darkblue; }
+    .ex12 .absolute { top: 10px; left: 10px; width: 50px; height: 50px; background: brown; }
+    .ex13 .absolute { top: 0; left: 0; background: orange; opacity: 0.5; }
+    .ex14 .absolute { top: 30px; right: 30px; border-radius: 50%; }
+    .ex15 .absolute { top: 0; left: 0; animation: move 2s infinite alternate; }
+
+    /* Animation for example 15 */
+    @keyframes move {
+      from { left: 0; }
+      to { left: 200px; }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="example ex1">
+    <strong>1. Top Left Corner</strong>
+    <div class="absolute">Box</div>
+  </div>
+
+  <div class="example ex2">
+    <strong>2. Top Right Corner</strong>
+    <div class="absolute">Box</div>
+  </div>
+
+  <div class="example ex3">
+    <strong>3. Bottom Left Corner</strong>
+    <div class="absolute">Box</div>
+  </div>
+
+  <div class="example ex4">
+    <strong>4. Bottom Right Corner</strong>
+    <div class="absolute">Box</div>
+  </div>
+
+  <div class="example ex5">
+    <strong>5. Center of Parent</strong>
+    <div class="absolute">Center</div>
+  </div>
+
+  <div class="example ex6">
+    <strong>6. Offset from Top-Left</strong>
+    <div class="absolute">Offset</div>
+  </div>
+
+  <div class="example ex7">
+    <strong>7. Top Full-width Bar</strong>
+    <div class="absolute"></div>
+  </div>
+
+  <div class="example ex8">
+    <strong>8. Bottom Full-width Bar</strong>
+    <div class="absolute"></div>
+  </div>
+
+  <div class="example ex9">
+    <strong>9. Label in Top-Right</strong>
+    <div class="absolute">New!</div>
+  </div>
+
+  <div class="example ex10">
+    <strong>10. Overflowing Box</strong>
+    <div class="absolute">Out</div>
+  </div>
+
+  <div class="example ex11">
+    <strong>11. Floating Right</strong>
+    <div class="absolute">Float</div>
+  </div>
+
+  <div class="example ex12">
+    <strong>12. Small Box in Corner</strong>
+    <div class="absolute"></div>
+  </div>
+
+  <div class="example ex13">
+    <strong>13. Transparent Overlay</strong>
+    <div class="absolute"></div>
+  </div>
+
+  <div class="example ex14">
+    <strong>14. Circle Badge</strong>
+    <div class="absolute">!</div>
+  </div>
+
+  <div class="example ex15">
+    <strong>15. Moving Box with Animation</strong>
+    <div class="absolute">Move</div>
+  </div>
+
+</body>
+</html> -->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Relative vs Absolute - 15 Examples</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f0f0f0;
+      margin: 0;
+      padding: 20px;
+    }
+
+    .example {
+      position: relative;
+      border: 2px solid #333;
+      background: #fff;
+      margin: 30px 0;
+      padding: 20px;
+      height: 150px;
+      overflow: hidden;
+    }
+
+    .title {
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+    .box {  
+      width: 80px;
+      height: 80px;
+      background: orange;
+      color: white;
+      text-align: center;
+      line-height: 80px;
+      font-weight: bold;
+    }
+
+    /* Individual Absolute Positioning Examples */
+    .ex1 .box { position: absolute; top: 0; left: 0; }
+    .ex2 .box { position: absolute; top: 0; right: 0; }
+    .ex3 .box { position: absolute; bottom: 0; left: 0; }
+    .ex4 .box { position: absolute; bottom: 0; right: 0; }
+    .ex5 .box { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); }
+    .ex6 .box { position: absolute; top: 20px; left: 100px; }
+    .ex7 .box { position: absolute; top: 0; left: 0; width: 100%; height: 10px; background: green; }
+    .ex8 .box { position: absolute; bottom: 0; left: 0; width: 100%; height: 10px; background: blue; }
+    .ex9 .box { position: absolute; top: 10px; right: 10px; background: red; padding: 5px; width: auto; }
+    .ex10 .box { position: absolute; top: -20px; left: -20px; }
+    .ex11 .box { position: absolute; right: -40px; bottom: 20px; background: darkblue; }
+    .ex12 .box { position: absolute; top: 10px; left: 10px; width: 50px; height: 50px; background: brown; }
+    .ex13 .box { position: absolute; top: 0; left: 0; background: rgba(255,165,0,0.5); width: 100%; height: 100%; }
+    .ex14 .box { position: absolute; top: 10px; right: 10px; border-radius: 50%; width: 30px; height: 30px; line-height: 30px; font-size: 14px; background: purple; }
+    .ex15 .box {
+      position: absolute;
+      top: 0;
+      left: 0;
+      animation: moveRight 2s infinite alternate;
+    }
+
+    @keyframes moveRight {
+      from { left: 0; }
+      to { left: 200px; }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="example ex1">
+    <div class="title">1. Top Left Corner</div>
+    <div class="box">1</div>
+  </div>
+
+  <div class="example ex2">
+    <div class="title">2. Top Right Corner</div>
+    <div class="box">2</div>
+  </div>
+
+  <div class="example ex3">
+    <div class="title">3. Bottom Left Corner</div>
+    <div class="box">3</div>
+  </div>
+
+  <div class="example ex3">
+    <div class="title">4. Bottom Right Corner</div>
+    <div class="box">4</div>
+  </div>
+
+  <div class="example ex5">
+    <div class="title">5. Center of the Box</div>
+    <div class="box">5</div>
+  </div>
+
+  <div class="example ex6">
+    <div class="title">6. Offset from Left</div>
+    <div class="box">6</div>
+  </div>
+
+  <div class="example ex7">
+    <div class="title">7. Top Border Bar</div>
+    <div class="box"></div>
+  </div>
+
+  <div class="example ex8">
+    <div class="title">8. Bottom Border Bar</div>
+    <div class="box"></div>
+  </div>
+
+  <div class="example ex9">
+    <div class="title">9. Floating Notification</div>
+    <div class="box">New</div>
+  </div>
+
+  <div class="example ex10">
+    <div class="title">10. Positioned Outside Parent</div>
+    <div class="box">10</div>
+  </div>
+
+  <div class="example ex11">
+    <div class="title">11. Floating Outside Right</div>
+    <div class="box">11</div>
+  </div>
+
+  <div class="example ex12">
+    <div class="title">12. Small Box Inside</div>
+    <div class="box"></div>
+  </div>
+
+  <div class="example ex13">
+    <div class="title">13. Full Overlay with Transparency</div>
+    <div class="box"></div>
+  </div>
+
+  <div class="example ex14">
+    <div class="title">14. Circular Badge</div>
+    <div class="box">!</div>
+  </div>
+
+  <div class="example ex15">
+    <div class="title">15. Animated Box (Relative Context)</div>
+    <div class="box">15</div>
+  </div>
+
+</body>
+</html>
+

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        div{
+            height: 100vh;
+            animation: bgchange 10s infinite;
+        }
+        /* @keyframes bgchange {
+         0%{
+            background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaIP-80Z2ghEKQvti0IolXGgzFmHfVbwN3JA&s") 
+            no-repeat center/cover;
+         }
+         50%{
+            background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6s4MeFmZ0WLK6RBaC3HVAyYNQApD9s4d2Kw&s")
+            no-repeat center/cover;
+         }
+         100%{
+            background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLWyWD1oQ0AFKmuPOwEIHsPCDIk7aHljLoKg&s")
+            no-repeat center/cover;
+         }
+        } */
+        /* p{
+           animation: slide 8s infinite;
+           font-size: 30px;
+           
+        } */
+        @keyframes slide {
+            0%{
+                transform: translateX(100vw);
+            }
+            100%{
+                transform: translateX(0)
+                scale(1.1);
+            }
+        }
+        /* span{ */
+            /* this is long end for animation
+            animation-name: scaling;
+            animation-duration: 5s; */
+
+            /* this is short end for animation  */
+            
+            /* animation: scaling 5s infinite;
+            display: inline-block; */
+        /* } */
+        @keyframes scaling {
+            100%{
+                transform: scale(2);
+                color: brown;
+            }   
+        }
+        button{
+            border: none;
+            height: 50px;
+            width: 80px;
+            background-color: greenyellow;
+            border-radius: 10px;
+            animation: rotate 5s infinite;
+        }
+        @keyframes rotate {
+            50%{
+                transform: translate(70vw) rotate(180deg);
+            }
+            100%{
+                transform: translateX(0vw) 
+                rotate(0deg);
+                border-radius: 50px;
+            }    
+        }
+        span{
+            border: solid;
+            height: 100px;
+            width: 800px;
+            color: aqua;
+            background-color: greenyellow;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <p>Lorem ipsum <span>dolar</span> sit amet consectetur adipisicing elit. Minima pariatur officiis repellat minus natus aspernatur iure eveniet architecto ut autem sint excepturi iusto placeat laudantium doloremque cumque, hic obcaecati facilis, alias voluptate quasi? Accusantium excepturi nesciunt qui ut ducimus, ea dignissimos animi aperiam veniam tenetur quibusdam alias adipisci vero magnam totam suscipit dolore fugit ab consequatur quod nobis odit recusandae aut? Perspiciatis repudiandae accusantium a iure ex, voluptate excepturi laudantium aliquam, earum assumenda fugiat voluptatibus error culpa voluptas id aperiam.</p>
+    <br><br>
+    <button>CSS</button>
+    <button>HTML</button><br>
+    <span></span>
+</body>
+</html>

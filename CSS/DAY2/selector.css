@@ -1,0 +1,32 @@
+     /* h1,h3,h5{
+        color:maroon;
+     }
+      */
+/* universal selector */
+/* *{
+    color: maroon;
+    background-color: rgb(rgb(37, 209, 48), green, blue);
+} */
+/* .d1{
+    color: aquamarine;
+}
+#head2{
+    color: bisque;
+}
+#head3{
+    color: lawngreen;
+}
+#head5{
+    color: seagreen;
+} */
+*{
+    height: 200px;
+}
+#orange{
+    background-color: orange;
+
+}
+#green{
+    background-color: green;
+
+}

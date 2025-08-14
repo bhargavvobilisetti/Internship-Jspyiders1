@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div{
+    height: 100px;
+    width: 100px;
+    padding: 40px;
+    background-color: burlywood;
+    border: 20px solid burlywood;
+}
+section{
+    height: 120px;
+    width: 100px;
+    background-color: aqua;
+}

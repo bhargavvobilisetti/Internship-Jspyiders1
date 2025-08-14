@@ -1,0 +1,11 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.main-div{
+    background-image: url('./scaled_1000490859.jpg');
+    background-position: no-repeat;
+    background-position: cover;
+    
+}

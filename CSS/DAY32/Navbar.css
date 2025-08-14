@@ -1,0 +1,109 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.swiggy-first{
+    display: flex;
+    align-items: center;
+    gap: 30px;    
+}
+ .swiggy-maindiv{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    padding: 0px 30px;
+}
+.swiggy-second{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.swiggy .swiggy-maindiv span{
+align-items: center;
+justify-content: center;
+}
+
+.swiggy-maindiv .swiggy-second a {
+    text-decoration: none;
+}
+
+.swiggy-maindiv .swiggy-second input{
+    height: 30px;
+    width: 300px;
+
+}
+.swiggy-maindiv .swiggy-second span {
+    gap: 30px;
+}
+
+/* 2d */
+/* 
+ .flip-maindiv{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    padding: 0px 30px;
+} */
+.filpkart .filp-maindiv  .filp-first{
+
+    justify-content:space-evenly;
+    display: flex;
+    align-items: center;
+    gap: 30px;    
+}
+
+.filpkart .filp-maindiv .filp-first a {
+    text-decoration: none;
+    align-items: center;
+}
+
+.filp-maindiv .filp-first input{
+    height: 30px;
+    width: 580px;
+}
+
+/* 3 */
+
+.gfg-maindiv{
+    display: flex;
+    justify-content: space-around;
+    /* background-color: aquamarine; */
+    align-items: center;
+
+}
+.gfg-second img{
+    margin-right: 200px;
+}
+
+.gfg-maindiv .gfg-first ul li{
+    list-style: none;
+    display: flex;
+                text-decoration: none;
+}
+.gfg-maindiv .gfg-first ul{
+    justify-content: space-between;
+    text-decoration: none;
+    display: flex ;
+    align-items: center;
+    gap: 20px;
+    align-items: center;
+    text-;
+}
+.gfg-maindiv .gfg-first ul li a{
+    text-decoration: none;
+}
+.gfg-third{
+    align-items: center;
+    display: flex;
+    gap: 10px;
+}
+.gfg-third button{
+
+    height: 25px;
+    width: 100px;
+    background-color: black;
+    border-radius: 10px;
+    color: white;
+}

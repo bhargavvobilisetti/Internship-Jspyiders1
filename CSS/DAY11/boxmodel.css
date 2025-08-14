@@ -1,0 +1,36 @@
+
+#margin{
+    height: 150px;
+    background-color: peachpuff;
+    width: 210px;
+    border: 1px dashed black;
+    margin-top: 10px;
+}
+#border{
+    margin-left: 20px;
+    background-color: lightyellow;
+    width: 160px;
+    border: 1px solid black;
+    height: 110px;
+    margin-top: 15px;
+}
+#padding{
+    margin-left: 30px;
+    background-color: rgb(153, 225, 153);
+    width: 100px;
+    border: 1px dashed black;
+    height: 60px;
+    margin-top: 20px;
+}
+#blue{
+    background-color: blue;
+    height: 2
+    0px;
+    border: 1px solid black;
+    width: 60px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 600px;
+    
+
+}

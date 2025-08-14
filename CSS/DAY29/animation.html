@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .timing{
+            height: 100px;
+            width: 100px;
+            background-color: aqua;
+            margin-bottom: 10px;
+            /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+            animation: move 10s;
+          
+        }
+        #timing-1{
+            animation-timing-function:ease ;
+        }
+       #timing-2{
+            animation-timing-function:ease-in ;
+        }
+       #timing-3{
+            animation-timing-function:ease-out ;
+        }
+        #timing-4{
+            animation-timing-function:ease-in-out ;
+        }
+       #timing-5{
+            animation-timing-function:linear ;
+        }
+        @keyframes move {
+            to{
+                transform: translate(80vw);
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- <div class="timing" id="timing-1">ease<div> -->
+    <div class="timing" id="timing-2">ease-in</div>
+    <div class="timing" id="timing-3">ease-out</div>
+    <div class="timing" id="timing-4">ease-in-out</div>
+    <div class="timing" id="timing-5">linear</div>
+    <div class="timing" id="timing-1">ease</div>
+
+    
+
+</body>
+</html>

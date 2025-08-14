@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(229,217,217);
+}
+form{
+    width: 380px;
+    background-color: #fff;
+    margin: 150px auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+.con-w{
+    width: 100%;
+    box-sizing: border-box;
+    padding:10px 24px;
+    border-radius: 10px;
+    margin-bottom: 7px;
+    /* border: ; */
+}
+.btn-sign{
+    background-color: #0866ff;
+    border: none;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+.hr{
+    height: 2px;
+    border-bottom: 1px solid gray;
+    border-top: 5px;
+}
+a{
+    align-items: center;
+}
+form input{
+    border: 1px solid #dee0e4;
+}
+form input:focus{
+    caret-color: #0866ff;
+    border: 1.2px solid #0866ff;
+    outline:1px solid rgb(72, 40, 255) ;
+    /* outline-offset: 1.2px; */
+}
+form input:focus::placeholder{
+    color: rgb(220, 214, 214);
+}
+form input::placeholder{
+    color: rgb(196, 196, 196);
+    font-size: 15px;
+    font-weight: bold;
+}
+.btn-sign:hover{
+    cursor: pointer;
+    background-color: #074fc4;
+
+}
+
+form a{
+    color: #0866ff;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    margin-bottom: 7px;
+
+
+}
+form a:hover{
+    text-decoration: underline;
+}
+.btn-rgn {
+    /* margin-top: 7px; */
+    border-radius: 6px;
+    color:white;
+    text-align: center;
+    border: none;
+    display: block;
+    background-color: greenyellow;
+    padding: 14px 13px;
+    margin: 20px auto 0;
+
+}
+.btn-rgn:hover{
+    cursor: pointer;
+    background-color: darkgreen;
+}

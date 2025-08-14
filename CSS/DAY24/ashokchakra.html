@@ -1,0 +1,107 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>transform</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        body{
+            background-color: lightgray;
+        }
+        div{
+            height: 150px;
+            width: 150px;
+            overflow: hidden;
+            margin: 50px auto;
+            background-color: lightgray;
+            border-radius:60%;
+            margin-top: 180px;
+            box-shadow: hidden;
+            box-sizing: border-box;
+            transform: rotate(360deg);
+        }
+        div:hover{
+            box-shadow: 
+                        5px -30px 0px -3px orange,
+                        30px 20px 0px -6px green,
+                        -30px 20px 0px -9px white;
+            animation: rotateShadow 2s linear infinite;
+        }
+        div img{
+            height: 150px;
+            width: 150px;
+            transition:  trnasform 0.10s; 
+        }
+        div img:hover{
+            rotate: 180deg;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div><img src="../DAY2/download.png" alt=""></div>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Box Shadow Rotate</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background-color: lightgray;
+    }
+
+    div {
+      height: 150px;
+      width: 150px;
+      margin: 180px auto;
+      border-radius: 50%;
+      overflow: hidden;
+      background-color: white;
+      animation: rotateShadow 2s linear infinite;
+      box-shadow: 
+        0 -30px 0 orange,
+        30px 0 0 green,
+        0 30px 0 white;
+        transform: hidden;
+    }
+
+    @keyframes rotateShadow {
+      0% {
+        transform: rotate(0deg);
+      }
+      100% {
+        transform: rotate(10deg);
+      }
+    }
+
+    div img {
+      height: 150px;
+      width: 150px;
+      transition: transform 0.9s;
+    }
+
+    div img:hover {
+      transform: rotate(180deg); /* fixed: use transform, not rotate */
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div><img src="../DAY2/download.png" alt=""></div>
+</body>
+</html>
